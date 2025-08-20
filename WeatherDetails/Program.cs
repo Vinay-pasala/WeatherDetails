@@ -12,7 +12,7 @@ var app = builder.Build();
 // Configure the HTTP request pipeline. Swagger is best suited for only Dev environmenyts
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
+    app.UseSwagger();//OPENAPI
     app.UseSwaggerUI();
 }
 
